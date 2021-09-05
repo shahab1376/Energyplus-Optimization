@@ -1,0 +1,193 @@
+Program Version:,EnergyPlus, Version 8.3.0-6d97d074ea, YMD=2020.01.15 06:28
+Tabular Output Report in Format: ,Comma
+
+Building:,Building
+Environment:,CASESTUDY-THESIS ** Qazvin AP QZ IRN ISD-TMYx WMO#=407310
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Building Utility Performance Summary
+FOR:,Entire Facility
+Values gathered over      8760.00 hours
+
+Site and Source Energy
+
+,,Total Energy [kWh],Energy Per Total Building Area [kWh/m2],Energy Per Conditioned Building Area [kWh/m2]
+,Total Site Energy,46061.73,159.94,358.96
+,Net Site Energy,46061.73,159.94,358.96
+,Total Source Energy,133488.54,463.50,1040.27
+,Net Source Energy,133488.54,463.50,1040.27
+
+
+Site to Source Energy Conversion Factors
+
+,,Site=>Source Conversion Factor
+,Electricity,3.167
+,Natural Gas,1.084
+,District Cooling,1.056
+,District Heating,3.613
+,Steam,0.250
+,Gasoline,1.050
+,Diesel,1.050
+,Coal,1.050
+,Fuel Oil #1,1.050
+,Fuel Oil #2,1.050
+,Propane,1.050
+,Other Fuel 1,1.000
+,Other Fuel 2,1.000
+
+
+Building Area
+
+,,Area [m2]
+,Total Building Area,288.00
+,Net Conditioned Building Area,128.32
+,Unconditioned Building Area,159.68
+
+
+End Uses
+
+,,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,0.00,0.00,0.00,0.00,22354.66,0.00
+,Cooling,0.00,0.00,0.00,6764.06,0.00,0.00
+,Interior Lighting,1522.61,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,3132.79,5364.97,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,6922.65,132.49
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,4655.40,5364.97,0.00,6764.06,29277.31,132.49
+Note: District heat appears to be the principal heating source based on energy usage.
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,General,0.00,0.00,0.00,0.00,22354.66,0.00
+,Cooling,General,0.00,0.00,0.00,6764.06,0.00,0.00
+,Interior Lighting,ELECTRIC EQUIPMENT#4779#GeneralLights,55.60,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4786#GeneralLights,14.06,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4793#GeneralLights,210.24,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4805#GeneralLights,131.40,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4813#GeneralLights,10.95,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4820#GeneralLights,15.06,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5618#GeneralLights,15.06,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5627#GeneralLights,10.95,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5634#GeneralLights,131.40,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5642#GeneralLights,210.24,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5654#GeneralLights,14.06,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5661#GeneralLights,55.60,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#6114#GeneralLights,81.08,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#6122#GeneralLights,566.92,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,ELECTRIC EQUIPMENT#4793#05,181.78,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4805#05,1294.91,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4813#05,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#4820#05,89.70,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5618#05,89.70,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5627#05,0.00,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5634#05,1294.91,0.00,0.00,0.00,0.00,0.00
+,,ELECTRIC EQUIPMENT#5642#05,181.78,0.00,0.00,0.00,0.00,0.00
+,,GAS EQUIPMENT#4805#04,0.00,2682.49,0.00,0.00,0.00,0.00
+,,GAS EQUIPMENT#5634#04,0.00,2682.49,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,Ventilation (simple),0.00,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,DHW 4805,0.00,0.00,0.00,0.00,3461.32,66.25
+,,DHW 5634,0.00,0.00,0.00,0.00,3461.32,66.25
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,11.87,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.00,0.00,0.00,52.71,228.16,1.03
+,Other,24.41,41.81,0.00,0.00,0.00,0.00
+,Total,36.28,41.81,0.00,52.71,228.16,1.03
+
+
+Utility Use Per Total Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,5.29,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.00,0.00,0.00,23.49,101.66,0.46
+,Other,10.88,18.63,0.00,0.00,0.00,0.00
+,Total,16.16,18.63,0.00,23.49,101.66,0.46
+
+
+Electric Loads Satisfied
+
+,,Electricity [kWh],Percent Electricity [%]
+,Fuel-Fired Power Generation,0.00,0.00
+,High Temperature Geothermal*,0.00,0.00
+,Photovoltaic Power,0.00,0.00
+,Wind Power,0.00,0.00
+,Net Decrease in On-Site Storage,0.00,0.00
+,Total On-Site Electric Sources,0.00,0.00
+,,,
+,Electricity Coming From Utility,4655.40,100.00
+,Surplus Electricity Going To Utility,0.00,0.00
+,Net Electricity From Utility,4655.40,100.00
+,,,
+,Total On-Site and Utility Electric Sources,4655.40,100.00
+,Total Electricity End Uses,4655.40,100.00
+
+
+On-Site Thermal Sources
+
+,,Heat [kWh],Percent Heat [%]
+,Water-Side Heat Recovery,0.00,
+,Air to Air Heat Recovery for Cooling,0.00,
+,Air to Air Heat Recovery for Heating,0.00,
+,High-Temperature Geothermal*,0.00,
+,Solar Water Thermal,0.00,
+,Solar Air Thermal,0.00,
+,Total On-Site Thermal Sources,0.00,
+
+
+Water Source Summary
+
+,,Water [m3],Percent Water [%]
+,Rainwater Collection,0.00,0.00
+,Condensate Collection,0.00,0.00
+,Groundwater Well,0.00,0.00
+,Total On Site Water Sources,0.00,0.00
+,-,-,-
+,Initial Storage,0.00,0.00
+,Final Storage,0.00,0.00
+,Change in Storage,0.00,0.00
+,-,-,-
+,Water Supplied by Utility,132.49,100.00
+,-,-,-
+,Total On Site, Change in Storage, and Utility Water Sources,132.49,100.00
+,Total Water End Uses,132.49,100.00
+
+
+Setpoint Not Met Criteria
+
+,,Degrees [deltaC]
+,Tolerance for Zone Heating Setpoint Not Met Time,1.11
+,Tolerance for Zone Cooling Setpoint Not Met Time,1.11
+
+
+Comfort and Setpoint Not Met Summary
+
+,,Facility [Hours]
+,Time Setpoint Not Met During Occupied Heating,0.00
+,Time Setpoint Not Met During Occupied Cooling,16.25
+,Time Not Comfortable Based on Simple ASHRAE 55-2004,5737.75
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.

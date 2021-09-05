@@ -1,0 +1,61 @@
+Program Version,EnergyPlus, Version 8.3.0-6d97d074ea, YMD=2020.01.15 06:28,IDD_Version 8.3.0
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** GetSurfaceData: Construction 6 of interzone surface 4767_PARTITION_2_0_0 does not have the same materials in the reverse order as the construction 5 of adjacent surface 4793_PARTITION_8_0_10000
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...if the two zones are expected to have significantly different temperatures, the proper "reverse" construction should be created.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 12 of interzone surface 4767_PARTITION_7_0_0 does not have the same materials in the reverse order as the construction 11 of adjacent surface 4805_PARTITION_4_0_10003
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 21 of interzone surface 4779_FLOOR_5_0_0 does not have the same materials in the reverse order as the construction 22 of adjacent surface 5661_CEILING_1_0_10011
+   **   ~~~   ** ...but Nominal U values are similar, diff=[8.8818E-016] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 29 of interzone surface 4793_PARTITION_4_0_0 does not have the same materials in the reverse order as the construction 30 of adjacent surface 4813_PARTITION_1_0_10016
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 33 of interzone surface 4793_PARTITION_9_0_0 does not have the same materials in the reverse order as the construction 34 of adjacent surface 4805_PARTITION_6_0_10020
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 35 of interzone surface 4793_FLOOR_10_0_0 does not have the same materials in the reverse order as the construction 36 of adjacent surface 5642_CEILING_1_0_10021
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 39 of interzone surface 4805_FLOOR_3_0_0 does not have the same materials in the reverse order as the construction 40 of adjacent surface 5634_CEILING_1_0_10024
+   **   ~~~   ** ...but Nominal U values are similar, diff=[4.4409E-016] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 41 of interzone surface 4813_FLOOR_5_0_0 does not have the same materials in the reverse order as the construction 42 of adjacent surface 5627_CEILING_1_0_10026
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 45 of interzone surface 5618_PARTITION_4_0_0 does not have the same materials in the reverse order as the construction 46 of adjacent surface 5661_PARTITION_5_0_10032
+   **   ~~~   ** ...but Nominal U values are similar, diff=[0.0000] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** GetSurfaceData: Construction 47 of interzone surface 5654_FLOOR_0_0_0 does not have the same materials in the reverse order as the construction 48 of adjacent surface 6122_CEILING_1_0_10049
+   **   ~~~   ** ...but Nominal U values are similar, diff=[4.4409E-016] ... simulation proceeds.
+   **   ~~~   ** ...this problem for this pair will not be reported again.
+   ** Warning ** CheckUsedConstructions: There are 10 nominally unused constructions in input.
+   **   ~~~   ** For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ************* Simulation Error Summary *************
+   ************* There are 1 unused objects in input.
+   ************* Use Output:Diagnostics,DisplayUnusedObjects; to see them.
+   ************* There are 23 unused schedules in input.
+   ************* There are 3 unused week schedules in input.
+   ************* There are 5 unused day schedules in input.
+   ************* Use Output:Diagnostics,DisplayUnusedSchedules; to see them.
+   *************
+   ************* ===== Final Error Summary =====
+   ************* The following error categories occurred.  Consider correcting or noting.
+   ************* Nominally Unused Constructions
+   ************* ..The nominally unused constructions warning is provided to alert you to potential conditions that can cause
+   ************* ..extra time during simulation. Each construction is calculated by the algorithm indicated in the HeatBalanceAlgorithm
+   ************* ..object. You may remove the constructions indicated (when you use the DisplayExtraWarnings option).
+   *************
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 0 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 11 Warning; 0 Severe Errors.
+   ************* EnergyPlus Completed Successfully-- 11 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 25.47sec
