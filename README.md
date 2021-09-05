@@ -41,7 +41,7 @@ Or you can define the exact version we used.
 pip install eppy==8.3
 ```
 
-Multi-objective grey wolf optimization (MOGWO) and NSGAII algorithms are used in a comparative approach to perform optimization.
+Multi-objective grey wolf optimization (MOGWO) and NSGAII algorithms were used in a comparative approach to perform optimization.
 
 For NSGAII we have used platypus. Install it as below.
 
