@@ -31,15 +31,21 @@ Report: Annual Building Utility Performance Summary
 
 We have used eppy environment to define our objective function to be optimized. You can install it by typing the command below in your terminal.
 
-`pip install eppy`
+```
+pip install eppy
+```
 
 Or you can define the exact version we used.
 
-`pip install eppy==8.3`
+```
+pip install eppy==8.3
+```
 
 Multi-objective grey wolf optimization (MOGWO) and NSGAII algorithms are used in a comparative approach to perform optimization.
 
 For NSGAII we have used platypus. Install it as below.
 
-`pip install platypus`
+```
+pip install platypus
+```
 
